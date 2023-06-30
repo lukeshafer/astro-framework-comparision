@@ -1,0 +1,13 @@
+---
+import todos from "../../data/todos.json";
+---
+
+<div>
+	<vanilla-web-component>
+		{todos.todos.map((todo) => todo.name)}
+	</vanilla-web-component>
+</div>
+
+<script>
+	const template = document.createElement("template");
+</script>

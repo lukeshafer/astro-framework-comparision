@@ -1,0 +1,20 @@
+{
+  "name": "astro-framework-tests",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/lit": "^2.1.0",
+    "@astrojs/solid-js": "^2.2.0",
+    "@webcomponents/template-shadowroot": "^0.2.1",
+    "astro": "^2.7.1",
+    "lit": "^2.7.0",
+    "solid-js": "^1.4.3"
+  }
+}

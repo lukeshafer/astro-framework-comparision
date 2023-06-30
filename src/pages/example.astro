@@ -1,0 +1,40 @@
+---
+import Page from "../layouts/Page.astro";
+---
+
+<Page title="Example">
+	<div class="layout">
+		<ul class="todos">
+			<li class="todo">
+				<button class="reorder">
+					<iconify-icon icon="uil:arrows-v"></iconify-icon>
+				</button>
+				<span class="name"> Task Name</span>
+				<button
+					class="complete"
+					aria-label="complete"
+					aria-pressed="false"></button>
+			</li>
+			<li class="todo">
+				<button class="reorder">
+					<iconify-icon icon="uil:arrows-v"></iconify-icon>
+				</button>
+				<span class="name"> Second Task Name</span>
+				<button
+					class="complete"
+					aria-label="complete"
+					aria-pressed="false"></button>
+			</li>
+			<li class="todo">
+				<button class="reorder">
+					<iconify-icon icon="uil:arrows-v"></iconify-icon>
+				</button>
+				<span class="name"> Last Task Name</span>
+				<button
+					class="complete"
+					aria-label="complete"
+					aria-pressed="true"></button>
+			</li>
+		</ul>
+	</div>
+</Page>
